@@ -1,0 +1,43 @@
+.prism-setting-list {
+	input[type="checkbox"] {
+		position: relative;
+		top: 2px;
+		right: 4px;
+		display: inline-block;
+		width: 3em;
+		height: 1.4em;
+		color: #fff;
+		font-size: 1em;
+		background-color: #dbdbdb;
+		background-clip: padding-box;
+		border-color: transparent;
+		border-radius: 1.5em;
+		cursor: pointer;
+		-webkit-appearance: none;
+		-webkit-tap-highlight-color: transparent;
+		&::before {
+			position: absolute;
+			top: 0;
+			right: 50%;
+			bottom: 0;
+			left: 0;
+			z-index: 2;
+			background-color: #fff;
+			background-clip: padding-box;
+			border: 0.125em solid transparent;
+			border-radius: 100%;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			content: "";
+		}
+		&:checked {
+			color: #fff;
+			background-color: #ff5757;
+			border-color: transparent;
+			&::before {
+				right: 0;
+				left: 50%;
+			}
+		}
+	}
+}
