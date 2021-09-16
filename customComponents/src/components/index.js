@@ -1,47 +1,50 @@
-import AliplayerDanmuComponent from './AliplayerDanmuComponent'
+import AliplayerDanmuComponent from "./AliplayerDanmuComponent";
 
-import BulletScreenComponent from './BulletScreenComponent'
+import AutoPlayNextComponent from "./AutoPlayNextComponent";
 
-import MemoryPlayComponent from './MemoryPlayComponent'
+import BulletScreenComponent from "./BulletScreenComponent";
 
-import PauseADComponent from './PauseADComponent'
+import MemoryPlayComponent from "./MemoryPlayComponent";
 
-import PlaylistComponent from './PlaylistComponent'
+import PauseADComponent from "./PauseADComponent";
 
-import PreviewVodComponent from './PreviewVodComponent'
+import PlaylistComponent from "./PlaylistComponent";
 
-import ProgressComponent from './ProgressComponent'
+import PreviewVodComponent from "./PreviewVodComponent";
 
-import QualityComponent from './QualityComponent'
+import ProgressComponent from "./ProgressComponent";
 
-import RateComponent from './RateComponent'
+import QualityComponent from "./QualityComponent";
 
-import RotateMirrorComponent from './RotateMirrorComponent'
+import RateComponent from "./RateComponent";
 
-import StartADComponent from './StartADComponent'
+import RotateMirrorComponent from "./RotateMirrorComponent";
 
-import VideoADComponent from './VideoADComponent'
+import StartADComponent from "./StartADComponent";
 
-import CaptionComponent from './CaptionComponent'
+import VideoADComponent from "./VideoADComponent";
 
-import TrackComponent from './TrackComponent'
+import CaptionComponent from "./CaptionComponent";
 
-import ManyVideoADComponent from './ManyVideoADComponent'
+import TrackComponent from "./TrackComponent";
+
+import ManyVideoADComponent from "./ManyVideoADComponent";
 
 window.AliPlayerComponent = {
-  AliplayerDanmuComponent,
-  BulletScreenComponent,
-  MemoryPlayComponent,
-  PauseADComponent,
-  PlaylistComponent,
-  PreviewVodComponent,
-  RotateMirrorComponent,
-  StartADComponent,
-  VideoADComponent,
-  RateComponent,
-  QualityComponent,
-  ProgressComponent,
-  CaptionComponent,
-  TrackComponent,
-  ManyVideoADComponent,
+	AliplayerDanmuComponent,
+	AutoPlayNextComponent,
+	BulletScreenComponent,
+	MemoryPlayComponent,
+	PauseADComponent,
+	PlaylistComponent,
+	PreviewVodComponent,
+	RotateMirrorComponent,
+	StartADComponent,
+	VideoADComponent,
+	RateComponent,
+	QualityComponent,
+	ProgressComponent,
+	CaptionComponent,
+	TrackComponent,
+	ManyVideoADComponent,
 };
